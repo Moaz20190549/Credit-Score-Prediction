@@ -6,8 +6,10 @@ Handling missing values
 Encoding categorical variables
 Feature scaling and normalization
 Outlier removal
-Model Training
+
+Model Training:
 The model training process includes:
+
 
 Splitting the data into training and testing sets
 Using SMOTE to handle class imbalance
@@ -17,10 +19,13 @@ Model Evaluation
 The evaluation involves:
 
 Predicting the credit score on the test set
-Calculating accuracy and mean squared error
+Calculating accuracy
 Plotting the confusion matrix for better visualization
-Web Application
+
+
+Web Application:
 The web application allows users to input financial and demographic data to predict their credit score. It uses a Flask framework and renders an HTML form for input. The model loaded from your_model.pkl is used to make predictions.
 
-HTML Form
+
+HTML Form:
 The HTML form collects various inputs such as annual income, number of bank accounts, number of credit cards, etc., and sends them to the Flask backend for prediction.
